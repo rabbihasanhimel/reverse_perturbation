@@ -1,0 +1,7 @@
+Operational Scenario,Data State,Binary Accuracy (%),Binary F1,Multi-Class Acc (%),Multi-Class F1,Operational Threat / Outcome
+1. Clean Baseline (Ground Truth),Unperturbed Raw Telemetry,98.47%,0.9847,96.34%,0.9627,Complete telemetry leakage (High Risk)
+2. Zero-Knowledge Attacker (XOR RDP),Intercepted XOR Ciphertext,49.57%,0.4944,45.55%,0.3257,Attacker model collapses to random guess
+3. Transfer Attack (Pre-Trained IDS on XOR),Intercepted XOR Ciphertext,50.84%,0.4993,41.35%,0.3343,Commercial IDS fails on scrambled stream
+4. Zero-Knowledge Attacker (Gaussian AGP),Intercepted Additive Gaussian Noise,50.23%,0.5017,45.89%,0.3340,Partial distribution leakage (~51-52%)
+5. Transfer Attack (Pre-Trained IDS on Gaussian),Intercepted Additive Gaussian Noise,51.61%,0.5041,40.05%,0.3371,Severe classification distortion
+6. Cloud Restored (XOR RDP Post-Reversal),100% Bit-Exact Restored Telemetry,98.47%,0.9847,96.34%,0.9627,Zero utility degradation (100% cloud analytics preserved)

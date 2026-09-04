@@ -1,0 +1,78 @@
+{
+  "baseline": {
+    "bin_acc": 98.47315975570557,
+    "bin_f1": 0.9847355508132438,
+    "mc_acc": 96.33558341369334,
+    "mc_f1": 0.9627042623807496
+  },
+  "xor_rdp": {
+    "Method": "XOR-16 / XOR-64 (RDP)",
+    "ZK_Bin_Acc": 49.57,
+    "ZK_Bin_F1": 0.4944,
+    "ZK_MC_Acc": 45.55,
+    "ZK_MC_F1": 0.3257,
+    "Transfer_Bin_Acc": 50.84,
+    "Transfer_Bin_F1": 0.4993,
+    "Transfer_MC_Acc": 41.35,
+    "Transfer_MC_F1": 0.3343,
+    "Restored_Bin_Acc": 98.47,
+    "Restored_Bin_F1": 0.9847,
+    "Restored_MC_Acc": 96.34,
+    "Restored_MC_F1": 0.9627,
+    "cm_zk_bin": [
+      [
+        1322,
+        1678
+      ],
+      [
+        1460,
+        1762
+      ]
+    ],
+    "cm_trans_bin": [
+      [
+        1104,
+        1896
+      ],
+      [
+        1163,
+        2059
+      ]
+    ]
+  },
+  "gaussian_agp": {
+    "Method": "Additive Gaussian (AGP)",
+    "ZK_Bin_Acc": 50.23,
+    "ZK_Bin_F1": 0.5017,
+    "ZK_MC_Acc": 45.89,
+    "ZK_MC_F1": 0.334,
+    "Transfer_Bin_Acc": 51.61,
+    "Transfer_Bin_F1": 0.5041,
+    "Transfer_MC_Acc": 40.05,
+    "Transfer_MC_F1": 0.3371,
+    "Restored_Bin_Acc": 98.47,
+    "Restored_Bin_F1": 0.9847,
+    "Restored_MC_Acc": 96.34,
+    "Restored_MC_F1": 0.9627,
+    "cm_zk_bin": [
+      [
+        1387,
+        1613
+      ],
+      [
+        1484,
+        1738
+      ]
+    ],
+    "cm_trans_bin": [
+      [
+        1065,
+        1935
+      ],
+      [
+        1076,
+        2146
+      ]
+    ]
+  }
+}
